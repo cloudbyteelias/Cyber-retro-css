@@ -63,6 +63,18 @@ Hover Elements
 
 */
 
+main h2,aside h4, aside h2{
+    z-index: 3;
+    position: relative;
+    font-size: 2rem;
+    font-size: clamp(2rem, 4vw, 4rem);
+    line-height: 2rem;
+    line-height: clamp(2rem, 7vw, 4rem);
+
+}
+
+
+
 a:hover,
 a:active{
     color: hsl(var(--light-blue));
@@ -70,5 +82,8 @@ a:active{
     left: -0.03rem;
     filter: drop-shadow(0 0 0.2rem hsla(var(--neon-purple), 0.4))
             drop-shadow(0.5rem 0.5rem 0.2rem hsla(var(--neon-purple), 0.6))
-            drop-shadow(-0.5rem 0.5rem 0.2rem hsla(var(--neon-purple))) 
-}           
+            drop-shadow(-0.5rem 0.5rem 0.2rem hsla(var(--neon-purple),0.6))
+            drop-shadow(0.5rem -0.5rem 0.2rem hsla(var(--neon-purple),0.6))
+            drop-shadow(-0.5rem 0.5rem 0.2rem hsla(var(--neon-purple),0.6));
+}
+
