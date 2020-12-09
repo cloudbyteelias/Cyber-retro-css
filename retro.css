@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Share+Tech+Mono&display=swap");
+
+
+:root{
+
+--neon-purple: 341, 100%, 58%;
+--neon-blue: 184, 96%, 46%;
+--yellow: 44, 97%, 72%;
+--light-blue:190,100%,91%;
+--border: hsl(var(--neon-purple)), hsl(var(--neon-blue));
+
+}
+
+body{
+    padding: 1rem;
+    margin: 1rem auto;
+    background: fixed;
+    text-align: center;
+    background-color: black;
+    font-size: 1.5rem;
+    font-size: clamp(1.5rem,2vw,3rem);
+    line-height: 1.5rem;
+    overflow-x: hidden; 
+}
+
+*,
+*:before,
+*:after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+@media screen and (min-widht: 769px){
+    body{
+        margin-left: 13rem;
+        max-width: calc(100vw- 13rem);
+    }
+}
+
+h1,h2,h3,h4{
+    color: hsl(var(--yellow));
+    text-transform: uppercase;
+}
+
+a,li,p,span{
+    font-size: inherit;
+    font-size: inherit;
+}
+
+strong{
+    color: hsl(var(--yellow));
+}
+
+/* 
+Hover Elements
+
+*/
+
+a:hover,
+a:active{
+    color: hsl(var(--light-blue));
+    top: -0.03rem;
+    left: -0.03rem;
+    filter: drop-shadow(0 0 0.2rem hsla(var(--neon-purple), 0.4))
+            drop-shadow(0.5rem 0.5rem 0.2rem hsla(var(--neon-purple), 0.6))
+            drop-shadow(-0.5rem 0.5rem 0.2rem hsla(var(--neon-purple))) 
+}           
