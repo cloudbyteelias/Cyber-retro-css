@@ -1,8 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Share+Tech+Mono&display=swap");
+@font-face {
+    font-family: pixel_font;
+    src: url('fonts/prstartk.ttf') format('opentype');
+    
+  }
+
 
 
 :root{
-
+   
 --neon-purple: 341, 100%, 58%;
 --neon-blue: 184, 96%, 46%;
 --yellow: 44, 97%, 72%;
@@ -34,10 +39,8 @@ body{
 }
 
 
-
-
-
 @media screen and (min-widht: 769px){
+ 
     body{
         margin-left: 13rem;
         max-width: calc(100vw- 13rem);
@@ -47,6 +50,7 @@ body{
 h1,h2,h3,h4{
     color: hsl(var(--yellow));
     text-transform: uppercase;
+    font-family: 'pixel_font';
 }
 
 a,li,p,span{
