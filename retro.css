@@ -1,13 +1,14 @@
-@font-face {
-    font-family: pixel_font;
-    src: url('fonts/prstartk.ttf') format('opentype');
-    
-  }
-
-
+@font-face {font-family: pixel_font;src: url('fonts/prstartk.ttf') format('opentype');}
 
 :root{
-   
+
+--BTN-CYBER-DANGER: 0, 71%, 43%;
+--BTN-CYBER-WARNING: 49, 100%, 50%;
+--BTN-CYBER-SUCESS: 114, 100%, 43%;
+--BNT-CYBER-DARK: 354, 39%, 8%;
+--BTN-CYBER-ANGELBLUE:220, 78%, 49%;
+--BTN-CYBER-INSANIT: 344, 90%, 49%;
+--yellow: 44, 97%, 72%;
 --neon-purple: 341, 100%, 58%;
 --neon-blue: 184, 96%, 46%;
 --yellow: 44, 97%, 72%;
@@ -206,3 +207,12 @@ aside h2::before{
 aside h2::after{
     content: "TESTE";
 }
+
+/* TESTAR melhor o glitch*/
+
+
+/*BTN */
+
+
+
+
